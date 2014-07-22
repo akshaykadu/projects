@@ -1,0 +1,86 @@
+{
+    "type": "Ext.data.Model",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userClassName": "CarData"
+    },
+    "designerId": "557d0ee3-1c67-4917-93df-46dacce9b2aa",
+    "cn": [
+        {
+            "type": "Ext.data.Field",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "name": "manufacturer"
+            },
+            "designerId": "2e31dbf3-983b-435c-8a0f-e93142bc56c8"
+        },
+        {
+            "type": "Ext.data.Field",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "name": "model"
+            },
+            "designerId": "1740ff48-c049-40f1-a8b7-7921f8f70041"
+        },
+        {
+            "type": "Ext.data.Field",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "name": "price"
+            },
+            "designerId": "af100423-837f-4fcd-aa00-4224a146c169"
+        },
+        {
+            "type": "Ext.data.Field",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "name": "wiki"
+            },
+            "designerId": "1427157a-3c17-402d-90dd-e3288ed1e04c"
+        },
+        {
+            "type": "Ext.data.Field",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "name": "img"
+            },
+            "designerId": "ba019a2f-919e-4628-bfda-e84706f48486"
+        },
+        {
+            "type": "Ext.data.Field",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "name": "quantity"
+            },
+            "designerId": "35cd5b0b-fe7b-4edb-8829-f84ae4e7e18a"
+        }
+    ]
+}

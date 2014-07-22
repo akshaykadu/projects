@@ -1,0 +1,101 @@
+{
+    "type": "Ext.panel.Panel",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "container|align": "stretch",
+        "designer|initialView": true,
+        "designer|userClassName": "CarListing",
+        "frame": true,
+        "frameHeader": false,
+        "height": 147,
+        "layout": "vbox",
+        "title": "Car Listing",
+        "width": 554
+    },
+    "designerId": "ac41195b-6c3e-4f4b-9cfd-8024feac8646",
+    "cn": [
+        {
+            "type": "Ext.grid.Panel",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "layout|flex": 1,
+                "title": null
+            },
+            "designerId": "e7001527-5810-4e22-815b-946a117c99fd",
+            "cn": [
+                {
+                    "type": "Ext.grid.column.Column",
+                    "reference": {
+                        "name": "columns",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "dataIndex": "string",
+                        "text": "String",
+                        "width": 152
+                    },
+                    "designerId": "6475b815-2675-48b9-85d7-2cc4b779148f"
+                },
+                {
+                    "type": "Ext.grid.column.Number",
+                    "reference": {
+                        "name": "columns",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "dataIndex": "number",
+                        "text": "Number",
+                        "width": 149
+                    },
+                    "designerId": "379a7df1-d3f6-4e4e-bc26-37b41c0cfa6c"
+                },
+                {
+                    "type": "Ext.grid.column.Date",
+                    "reference": {
+                        "name": "columns",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "dataIndex": "date",
+                        "text": "Date",
+                        "width": 142
+                    },
+                    "designerId": "2275c9dd-3964-49b3-9f6c-9c61b4fde334"
+                },
+                {
+                    "type": "Ext.grid.column.Boolean",
+                    "reference": {
+                        "name": "columns",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "dataIndex": "bool",
+                        "text": "Boolean"
+                    },
+                    "designerId": "b2d3a543-4166-4f35-a094-462ac311c3ac"
+                },
+                {
+                    "type": "Ext.grid.View",
+                    "reference": {
+                        "name": "viewConfig",
+                        "type": "object"
+                    },
+                    "codeClass": null,
+                    "designerId": "b1dee21e-2118-4887-8032-ad63bbcc8104"
+                }
+            ]
+        }
+    ]
+}

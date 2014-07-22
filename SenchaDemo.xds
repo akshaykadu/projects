@@ -1,0 +1,51 @@
+{
+    "name": "SenchaDemo",
+    "settings": {
+        "cmd": {
+            "license": "commercial",
+            "cmdVersion": "4.0.4.84",
+            "frameworkVersion": "4.2.1.883"
+        },
+        "canvasControls": {
+            "viewportSize": {
+                "name": "Auto Expand",
+                "builtIn": true,
+                "height": null,
+                "width": null
+            }
+        },
+        "urlPrefix": "http://localhost/SenchaDemo/",
+        "exportPath": "",
+        "spacesToIndent": 4,
+        "sdkPath": "",
+        "lineEnding": "CRLF",
+        "genTimestamps": false,
+        "cacheBust": false,
+        "buildShouldOverwriteIndex": true,
+        "generateArchitectVersion": true
+    },
+    "xdsVersion": "3.0.4",
+    "xdsBuild": 1386,
+    "schemaVersion": 1,
+    "upgradeVersion": 300000000004,
+    "framework": "ext42",
+    "viewOrderMap": {
+        "view": [
+            "ac41195b-6c3e-4f4b-9cfd-8024feac8646"
+        ],
+        "store": [
+            "004b9bd1-fd46-4e46-998b-4715109970f2"
+        ],
+        "controller": [],
+        "model": [
+            "557d0ee3-1c67-4917-93df-46dacce9b2aa"
+        ],
+        "resource": [
+            "f53023e5-1bf0-4102-b22e-6f7dc5018d47",
+            "c8e78673-0891-4a99-91a9-302a4094c393"
+        ],
+        "app": [
+            "application"
+        ]
+    }
+}
